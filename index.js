@@ -6,5 +6,5 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(){
-  if (katzDeli.length == [] )
+  if (katzDeli.length > 0 )
 }
