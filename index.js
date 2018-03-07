@@ -23,11 +23,11 @@ function currentLine(katzDeliLine){
     listLine.push (i+1 + katzDeli[i])
   }
   if (katzDeliLine.length > 0) {
-     return "The line is currently: " + listLine
+     return ("The line is currently: " + listLine)
       
     }
 
   else {
-    return "The line is currently empty."
+    return ("The line is currently empty.")
   }
 }
