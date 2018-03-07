@@ -10,5 +10,7 @@ function nowServing(){
     {
       
     }
-  else return ("There is nobody waiting to be served!")
+  else {
+    return ("There is nobody waiting to be served!")
+  }
 }
